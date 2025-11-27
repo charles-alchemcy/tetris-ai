@@ -2,7 +2,6 @@ import sys
 
 if len(sys.argv) < 2:
     exit("Missing model file")
-
 from dqn_agent import DQNAgent
 from tetris import Tetris
 

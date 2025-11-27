@@ -5,7 +5,6 @@ from statistics import mean
 from logs import CustomTensorBoard
 from tqdm import tqdm
         
-
 # Run dqn with Tetris
 def dqn():
     env = Tetris()
